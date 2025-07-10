@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   return (
-    <div className="pt-10 md:pt-16 px-5 md:px-20 flex flex-col md:flex-row items-center justify-center gap-10 bg-gray-50 min-h-[calc(100vh-80px)]">
+    <div className="pt-10 md:pt-16 px-5 md:px-20 flex flex-col md:flex-row items-center justify-center gap-10 bg-gray-50">
 
       
       {/* Left Content */}
@@ -12,7 +13,7 @@ const LandingPage = () => {
         </h2>
 
         {/* Google Button */}
-        <div className="flex items-center gap-3 w-full md:w-[80%] bg-blue-600 border border-gray-300 rounded-full py-2 px-4 text-white font-medium cursor-pointer hover:bg-blue-700 transition mb-3">
+        <div className="flex items-center justify-center gap-3 w-full md:w-[80%] bg-blue-600 border border-gray-300 rounded-full py-2 px-4 text-white font-medium cursor-pointer hover:bg-blue-700 transition mb-3">
           <img
             src="/google_logo.png"
             alt="Google logo"
@@ -38,6 +39,9 @@ const LandingPage = () => {
         <div className="text-md mt-5 w-full md:w-[80%]">
           New to LinkedIn?
           <span className="text-[#0374b3] cursor-pointer pl-1 hover:underline">Join now</span>
+          <Link to="/signup" className="text-[#0374b3] cursor-pointer pl-1 hover:underline">
+            Sign Up
+            </Link>
         </div>
       </div>
 

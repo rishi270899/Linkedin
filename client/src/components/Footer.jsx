@@ -11,6 +11,7 @@ const Footer = () => {
                         <img src="/LinkedIn_logo.png" alt="LinkedIn Logo" className="w-5 h-5" />
                     </div>
                     <p className="text-gray-600">© 2025 LinkedIn</p>
+                    
                 </div>
 
                 {/* Footer Links Section */}
