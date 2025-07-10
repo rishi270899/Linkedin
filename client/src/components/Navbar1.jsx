@@ -23,7 +23,7 @@ const Navbar1 = () => {
 
         {/* Sign In Button */}
         <button className="text-[#0374b3] border border-[#0374b3] text-sm md:text-lg px-3 md:px-4 py-1.5 rounded-full hover:bg-blue-50 transition duration-200">
-        Sing Up
+       <Link to={'/login'}> Sing in</Link>
         </button>
       </div>
     </nav>

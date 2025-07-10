@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   return (
-    <div className="pt-10 md:pt-16 px-5 md:px-20 flex flex-col md:flex-row items-center justify-center gap-10 bg-gray-50">
+    <div className="pt-10 md:pt-16 px-5 md:px-20  flex flex-col md:flex-row items-center justify-center gap-10 bg-gray-50">
 
       
       {/* Left Content */}
-      <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center text-center md:text-left">
+      <div className="w-full md:w-1/2 mb-5 flex flex-col items-center md:items-start justify-center text-center md:text-left">
         <h2 className="text-3xl md:text-4xl text-gray-700 font-semibold mb-6">
           With you every step of your career
         </h2>
@@ -38,7 +38,7 @@ const LandingPage = () => {
         {/* Join Now */}
         <div className="text-md mt-5 w-full md:w-[80%]">
           New to LinkedIn?
-          <span className="text-[#0374b3] cursor-pointer pl-1 hover:underline">Join now</span>
+          
           <Link to="/signup" className="text-[#0374b3] cursor-pointer pl-1 hover:underline">
             Sign Up
             </Link>

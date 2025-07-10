@@ -5,6 +5,7 @@ import LandingPage from './pages/landingPage/LandingPage'
 import Footer from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
 import SignUp from './pages/SignUp/SignUp'
+import Login from './pages/login/Login'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<LandingPage />} />
         <Route path='/signup' element={<SignUp />} />
+        <Route path='/login' element={<Login/>}/>
       </Routes>
       <Footer />
     </div>
