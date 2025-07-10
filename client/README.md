@@ -1,12 +1,23 @@
-# React + Vite
+## Components Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Navbar1.jsx
 
-Currently, two official plugins are available:
+The `Navbar1.jsx` component provides a responsive navigation bar for the application. It features:
+- A LinkedIn-style logo and branding.
+- "Join now" and "Sign in" buttons with interactive hover effects.
+- Responsive design for both mobile and desktop screens.
+- Clean layout using Tailwind CSS utility classes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can find the code in `src/components/Navbar1.jsx`.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Footer.jsx
+
+The `Footer.jsx` component renders a comprehensive footer section, including:
+- LinkedIn-style branding and copyright.
+- Multiple columns with categorized links (General, Browse LinkedIn, Business Solutions, Directories).
+- Responsive grid layout for optimal display on all devices.
+- Styled using Tailwind CSS for consistency with the rest of the app.
+
+You can find the code in `src/components/Footer
