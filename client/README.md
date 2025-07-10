@@ -20,4 +20,18 @@ The `Footer.jsx` component renders a comprehensive footer section, including:
 - Responsive grid layout for optimal display on all devices.
 - Styled using Tailwind CSS for consistency with the rest of the app.
 
-You can find the code in `src/components/Footer
+You can find the code in `src/components/Footer.jsx`.
+
+---
+
+### LandingPage.jsx
+
+The `LandingPage.jsx` component serves as the main landing page of the application. It includes:
+- A welcoming headline emphasizing career support.
+- Options to continue with Google or sign in with email, styled as interactive buttons.
+- A section outlining agreement to LinkedIn's terms and policies.
+- A prompt for new users to join LinkedIn.
+- A responsive layout with an illustration, optimized for both desktop and mobile devices.
+- All styling is handled with Tailwind CSS for a modern and clean appearance.
+
+You can find the code in `src/pages/landingPage/LandingPage.jsx`.
