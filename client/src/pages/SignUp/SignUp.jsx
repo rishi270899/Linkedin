@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import GoogleLoginComp from '../../components/googleLogin/GoogleLoginComp';
 
 const SignUp = () => {
     return (
@@ -68,13 +69,14 @@ const SignUp = () => {
                 </div>
 
                 {/* Google Login Button */}
-                <div className="flex items-center justify-center gap-3 w-full bg-white border border-gray-300 rounded-full py-2 px-4 text-black font-medium cursor-pointer hover:shadow-md transition">
-                    <img
+                <div>
+                    {/* <img
                         src="/google_logo.png"
                         alt="Google logo"
                         className="w-6 h-6"
-                    />
-                    <span className="text-sm md:text-base">Continue with Google</span>
+                    /> */}
+                    <GoogleLoginComp />
+                    {/* <span className="text-sm md:text-base">Continue with Google</span> */}
                 </div>
             </div>
 
